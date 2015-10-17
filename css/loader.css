@@ -1,0 +1,32 @@
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.CA-loader {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 160px;
+    height: 160px;
+}
+
+.CA-loader div {
+    height: 100%;
+    padding: 8px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    border-top-color: red;
+    border-bottom-color: black;
+    animation: rotate linear 3.5s infinite;
+}

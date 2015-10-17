@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas Avatar</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="./vendor/normalize-css/normalize.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/loader.css">
+    <link rel="stylesheet" href="./css/dropdown.css">
+    <link rel="stylesheet" href="./css/navigation.css">
+    <link rel="stylesheet" href="./css/palette.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<header class="CA-header">
+    <div class="CA-navigation">
+        <div class="CA-navigation__button js-CA-importButton">Import
+            <ul class="CA-dropDownMenu js-CA-dropDownMenu">
+                <li class="CA-dropDownMenu__item js-CA-maleTemplate">Male</li>
+                <li class="CA-dropDownMenu__item js-CA-femaleTemplate">Female</li>
+            </ul>
+        </div>
+        <div class="CA-navigation__button">
+            <a class="CA-navigation__button_export js-CA-exportButton">Export</a>
+        </div>
+        <div class="CA-navigation__button js-CA-clearButton">Clear</div>
+    </div>
+    <div class="CA-header__title CA-ellipsis">Canvas Avatar</div>
+</header>
+<main class="CA-viewport js-CA-viewport">
+    <div class="CA-loader">
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="CA-footer">
+    <div class="CA-palette-box js-CA-palette">
+        <div class="CA-palette-item CA-palette-item_white"></div>
+        <div class="CA-palette-item CA-palette-item_red"></div>
+        <div class="CA-palette-item CA-palette-item_green"></div>
+        <div class="CA-palette-item CA-palette-item_blue"></div>
+        <div class="CA-palette-item CA-palette-item_black CA-palette-item_active"></div>
+    </div>
+</footer>
+<script src="./vendor/jquery/dist/jquery.js"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>

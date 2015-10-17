@@ -1,0 +1,18 @@
+{
+  "name": "canvas-avatar",
+  "version": "1.0.0",
+  "private": true,
+  "authors": [
+    "Roman Stremedlovskyi <Roman_Stremedlovskyi@epam.com>"
+  ],
+  "description": "JavaScript Mentoring Program",
+  "license": "proprietary",
+  "repository": {
+    "type": "git",
+    "url": "https://git.epam.com/roman_stremedlovskyi/js_mentoring_kyiv_2015.git"
+  },
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "normalize-css": "normalize.css#~3.0.3"
+  }
+}

@@ -1,0 +1,45 @@
+.CA-palette-box {
+    width: 260px;
+    margin: 0 auto;
+    line-height: 48px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.CA-palette-item {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin: 0 8px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #dddddd;
+    opacity: 0.5;
+}
+.CA-palette-item:hover {
+    cursor: pointer;
+}
+
+.CA-palette-item_white {
+    background: white;
+}
+
+.CA-palette-item_red {
+    background: red;
+}
+
+.CA-palette-item_green {
+    background: green;
+}
+
+.CA-palette-item_blue {
+    background: blue;
+}
+
+.CA-palette-item_black {
+    background: black;
+}
+
+.CA-palette-item_active {
+    opacity: 1;
+}

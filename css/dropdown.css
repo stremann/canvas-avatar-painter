@@ -1,0 +1,22 @@
+.CA-dropDownMenu {
+    display: none;
+    list-style: none;
+    margin: 4px -8px;
+    padding: 0;
+    width: 80px;
+}
+
+.CA-dropDownMenu_active {
+    display: block;
+}
+
+.CA-dropDownMenu__item {
+    margin: 1px;
+    background: #777;
+}
+
+.CA-dropDownMenu__item:active {
+    color: #eeeeee;
+    background: #404040;
+    box-shadow: 0 0 1px 1px #555555, inset 0 1px 0 0 #777777;
+}
